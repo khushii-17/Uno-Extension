@@ -11,5 +11,14 @@
             "128": "icons/icon128.png"
         }
     },
-    "permissions": []
+    "permissions": [],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "uno-game@example.com",
+            "data_collection_permissions": {
+                "required": ["none"],
+                "optional": []
+            }
+        }
+    }
 }
